@@ -13,6 +13,21 @@ This is a living progress tracker. Claude should:
 
 ---
 
+## Study Context — Automatic Reference
+
+When Justin asks anything related to coursework, assignments, or connecting experience to concepts:
+
+1. **Read `EXPERIENCE.md`** — GM OT background, FANUC work, eBay reselling. This is the lived-experience anchor for all academic work.
+2. **Read `COURSE_GOALS.md`** — ASCM concept baseline. What he's learning and why.
+3. **Read `content/assignments/INDEX.md`** — Scan for past assignments relevant to the current question. Then read only the specific files that match.
+4. Use the above to answer: how does his background apply, what past work overlaps, how to frame the response for an academic audience.
+
+**Assignment files live at:** `content/assignments/umpi/` and `content/assignments/wsu/`
+**Template for new assignments:** `content/assignments/TEMPLATE.md`
+**Add a row to INDEX.md every time a new assignment file is created.**
+
+---
+
 ## Active Phase
 
 ### Phase 0 — Pre-Academic Foundation
