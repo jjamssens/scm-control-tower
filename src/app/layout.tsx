@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Justin Jamssens — SCM Control Tower",
     description:
       "OT Cybersecurity Engineer with 5 years at GM building supply chain tools. Cyber breach simulator, Feynman active recall, and SCOR risk engine.",
-    url: "https://scm-control-tower.vercel.app",
+    url: "https://scm-control-tower-qe01sqm10-jjamssens-projects.vercel.app",
     siteName: "Justin Jamssens",
     locale: "en_US",
     type: "website",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     description:
       "OT Cybersecurity Engineer with 5 years at GM building supply chain tools.",
   },
-  metadataBase: new URL("https://scm-control-tower.vercel.app"),
+  metadataBase: new URL("https://scm-control-tower-qe01sqm10-jjamssens-projects.vercel.app"),
 }
 
 export default function RootLayout({
