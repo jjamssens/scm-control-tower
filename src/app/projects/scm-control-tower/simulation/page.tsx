@@ -2,7 +2,6 @@
 import { Play, ArrowRight } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
-import Link from "next/link"
 import { SupplyChainMap } from "@/components/supply-chain-map"
 
 export default function SimulationPage() {
@@ -64,14 +63,7 @@ export default function SimulationPage() {
 
           <div className="border-t border-border/40 pt-4">
             <p className="text-xs text-muted-foreground">
-              Existing simulation available at{" "}
-              <Link
-                href="#"
-                className="text-primary underline-offset-4 hover:underline font-mono"
-              >
-                SCM-Tool/chainsim/
-              </Link>{" "}
-              — will be ported here as a client component once Phase 0 foundation is complete.
+              Existing simulation runs locally at <span className="font-mono text-primary">SCM-Tool/chainsim/</span> — will be ported here as an interactive client component once Phase 0 foundation is complete.
             </p>
           </div>
         </CardContent>

@@ -111,14 +111,14 @@ export const experience = {
   name:     "Justin Jamssens",
   tagline:  "OT Cybersecurity Engineer · SCM Student · Builder",
   location: "Belleville, MI",
-  email:    "justin@example.com",         // replace before deploying
+  email:    "jmjamssens@gmail.com",
   linkedin: "linkedin.com/in/justin-jamssens",
   github:   "github.com/jjamssens",
 
-  headline: "From plant-floor OT networks to supply chain resilience modeling.",
+  headline: "OT network engineer learning to quantify what I've been watching for 5 years.",
   narrative: [
-    "Five years inside General Motors' OT network taught me how supply chains actually fail — not from spreadsheet models, but from a 45-day patch lag on 400 endpoints, a FANUC robot arm that costs $22,000 per minute offline, and a semiconductor shortage that idled plants over $50 chips no forecast predicted.",
-    "Now I'm building the tools to model those failure modes: financial exposure simulators, compounding disruption engines, and AI-graded recall systems for ASCM concepts — anchored to plant-floor experience most supply chain analysts don't have.",
+    "I spent five years at General Motors maintaining OT networks across 10 plants. I watched a $50 semiconductor shortage idle assembly lines for weeks. I've seen what a 45-day patch lag does to 400 endpoints. The $22k/min downtime number on this dashboard is not theoretical.",
+    "Starting a BBA in SCM at UMPI in July 2026. Building this dashboard to put the ASCM framework on top of problems I've already lived through. Most supply chain analysts haven't had to LOTO a robot arm.",
   ],
 
   stats: [

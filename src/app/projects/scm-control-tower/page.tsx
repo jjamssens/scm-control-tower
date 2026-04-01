@@ -235,9 +235,9 @@ export default function ControlTowerDashboard() {
             </span>
           </div>
           <BentoGrid>
-            {scmModules.map((module) => (
+            {scmModules.map((module, i) => (
               <BentoItem key={module.id} span={module.span}>
-                <ModuleCard module={module} />
+                <ModuleCard module={module} index={i} />
               </BentoItem>
             ))}
           </BentoGrid>
